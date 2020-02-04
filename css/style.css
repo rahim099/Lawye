@@ -1,0 +1,580 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* header sec start*/
+.header {
+    padding: 35px 0;
+}
+
+.header .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header .container .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header .row .logo {
+    max-width: 30%;
+    flex-basis: 30%;
+}
+
+.header .row .logo img {}
+
+.header .row .menu {
+    max-width: 70%;
+    flex-basis: 70%;
+    justify-content: flex-end;
+}
+
+.header .row .menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.header .row .menu ul li {
+    list-style-type: none;
+    padding: 0 10px;
+}
+
+.header .row .menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: Montserrat;
+    color: #204f87;
+    font-weight: 601;
+}
+
+/*banner sec start*/
+.banner {
+    background-image: url(../images/lawyer_pro.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 493px;
+    width: 100%;
+    margin: 35px 0;
+}
+
+.banner #arrow {}
+
+
+.banner-headline h1 {
+    text-align: center;
+    font-size: 82px;
+    padding-top: 116px;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+/* banner sec end*/
+
+
+
+/*header sec start*/
+
+/* who we are sec start*/
+.who-we-are {
+    margin: 30px 0px 170px 0;
+}
+
+.who-we-are .container {
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.who-we-are .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.who-we-are .content-headline {
+    max-width: 50%;
+    flex-basis: 50%;
+}
+
+.who-we-are .content-headline nav {
+    width: 65px;
+    background-color: #f2622c;
+    height: 4px;
+    margin: 15px 0;
+}
+
+.who-we-are .content-headline h1 {
+    padding-bottom: 15px;
+    font-size: 36px;
+    font-family: Montserrat;
+    color: #204f87;
+}
+
+.who-we-are .content-headline p {
+    font-size: 14px;
+    font-family: Open Sans;
+    color: #b0b0b1;
+    padding-bottom: 29px;
+    text-align: justify;
+    padding-bottom: 30px;
+}
+
+.who-we-are .who-we-are-images {}
+
+/* who we are sec end*/
+
+/*what we do sec start*/
+.what-we-do {
+    background-color: #f7f8f8;
+    font-family: Montserrat;
+    background-image: url(../images/lawyer.jpg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    width: 100%;
+    background-size: auto;
+    padding: 56px 0;
+}
+
+.what-we-do .what-we {}
+
+.what-we-do .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.what-we-do .we-do-headline {
+    text-align: center;
+}
+
+.what-we-do .we-do-headline span {
+    display: block;
+    width: 65px;
+    background-color: #f2622c;
+    height: 4px;
+    margin: 20px 0;
+    margin: 9px auto;
+}
+
+.what-we-do .we-do-headline h1 {
+    font-size: 36px;
+    color: #2b2f85;
+    padding-top: 5px;
+}
+
+.what-we-do .row {
+    display: flex;
+}
+
+.what-we-do .photo-gallary {
+    margin: 66px 0px;
+    padding: 0px 13px;
+}
+
+.what-we-do .photo-gallary .gallary-hover {
+    position: relative;
+}
+
+.what-we-do .photo-gallary .gallary-hover img {}
+
+.what-we-do .photo-gallary .gallary-hover h1 {
+    bottom: 39%;
+    position: absolute;
+    left: 0%;
+    color: white;
+    font-size: 26px;
+    opacity: 0;
+    transition: 03s all ease;
+}
+
+.what-we-do .photo-gallary .gallary-hover:hover h1 {
+    bottom: 39%;
+    position: absolute;
+    left: 36%;
+    color: white;
+    font-size: 26px;
+    opacity: 1;
+}
+
+
+.what-we-do .photo-gallary .gallary-hover .gallary-overly {
+    width: 100%;
+    height: 50%;
+
+    position: absolute;
+    top: 0;
+    background-color: background: rgb(41, 137, 216);
+    background: -moz-linear-gradient(top, rgba(41, 137, 216, 1) 50%, rgba(32, 124, 202, 1) 51%, rgba(32, 124, 202, 1) 53%, rgba(51, 51, 153, 1) 80%, rgba(43, 47, 133, 1) 100%);
+    background: -webkit-linear-gradient(top, rgba(41, 137, 216, 1) 50%, rgba(32, 124, 202, 1) 51%, rgba(32, 124, 202, 1) 53%, rgba(51, 51, 153, 1) 80%, rgba(43, 47, 133, 1) 100%);
+    background: linear-gradient(to bottom, rgba(41, 137, 216, 0) 50%, rgba(32, 124, 202, 0) 51%, rgba(25, 121, 202, 0) 53%, rgba(51, 51, 153, 0.65) 80%, rgb(43, 47, 133) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2989d8', endColorstr='#2b2f85', GradientType=0);
+    opacity: 0;
+    transition: 01s;
+
+}
+
+.what-we-do .photo-gallary .gallary-hover:hover .gallary-overly {
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    background-color: background: rgb(41, 137, 216);
+    background: -moz-linear-gradient(top, rgba(41, 137, 216, 1) 50%, rgba(32, 124, 202, 1) 51%, rgba(32, 124, 202, 1) 53%, rgba(51, 51, 153, 1) 80%, rgba(43, 47, 133, 1) 100%);
+    background: -webkit-linear-gradient(top, rgba(41, 137, 216, 1) 50%, rgba(32, 124, 202, 1) 51%, rgba(32, 124, 202, 1) 53%, rgba(51, 51, 153, 1) 80%, rgba(43, 47, 133, 1) 100%);
+    background: linear-gradient(to bottom, rgba(41, 137, 216, 0) 50%, rgba(32, 124, 202, 0) 51%, rgba(25, 121, 202, 0) 53%, rgba(51, 51, 153, 0.65) 80%, rgb(43, 47, 133) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2989d8', endColorstr='#2b2f85', GradientType=0);
+    opacity: 1;
+}
+
+
+.what-we-do .photo-gallary .gallary-hover .icon {
+    top: 80%;
+    position: absolute;
+    left: 0%;
+    font-size: 29px;
+    opacity: 0;
+    color: white;
+    transition: 2s ease;
+}
+
+.what-we-do .photo-gallary .gallary-hover:hover .icon {
+    top: 80%;
+    position: absolute;
+    left: 50%;
+    font-size: 29px;
+    opacity: 1;
+    color: white;
+}
+
+
+
+
+/*what we do sec end*/
+/* attorneys sec start*/
+.attorneys {
+    background-image: url(../images/4rd-sec-banner.png);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 1172px;
+}
+
+.attorneys .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 29px 0;
+}
+
+.attorneys .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.attorneys .attorneys-headline {
+    max-width: 32%;
+    flex-basis: 32%;
+    margin: 164px 0;
+}
+
+.attorneys .attorneys-headline span {
+    display: block;
+    width: 55px;
+    background-color: #f2622c;
+    height: 4px;
+    margin: 22px 0;
+}
+
+.attorneys .attorneys-headline h1 {
+    font-size: 36px;
+    color: white;
+    font-family: Montserrat;
+    padding-bottom: 20px;
+}
+
+.attorneys .attorneys-headline p {
+    font-size: 14px;
+    width: 85%;
+    text-align: justify;
+    color: #929dcf;
+    padding-bottom: 20px;
+    font-family: Open Sans;
+}
+
+.attorneys .attorneys-headline a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #f2622c;
+    font-family: Montserrat;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.attorneys .attorneys-photo {
+    padding: 10px 10px;
+}
+
+.attorneys .attorneys-gallary {
+    max-width: 68%;
+    flex-basis: 68%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 96px 0;
+}
+
+.attorneys .attorneys-photo .attoneys-hover {
+    position: relative;
+}
+
+.attorneys .attorneys-photo .attoneys-hover h1 {
+    top: 50%;
+    position: absolute;
+    font-size: 24px;
+    color: white;
+    left: 0%;
+    opacity: 0;
+    transition: 2s ease;
+}
+
+.attorneys .attorneys-photo .attoneys-hover:hover h1 {
+    top: 50%;
+    position: absolute;
+    font-size: 24px;
+    color: white;
+    left: 10%;
+    opacity: 1;
+    z-index: 0;
+}
+
+.attorneys .attorneys-photo .attoneys-hover .attorneys-lyer {
+    width: 100%;
+    height: 50%;
+    background-color: background: rgb(41, 137, 216);
+    background: -moz-linear-gradient(top, rgba(41, 137, 216, 1) 50%, rgba(32, 124, 202, 1) 51%, rgba(32, 124, 202, 1) 53%, rgba(51, 51, 153, 1) 80%, rgba(43, 47, 133, 1) 100%);
+    background: -webkit-linear-gradient(top, rgba(41, 137, 216, 1) 50%, rgba(32, 124, 202, 1) 51%, rgba(32, 124, 202, 1) 53%, rgba(51, 51, 153, 1) 80%, rgba(43, 47, 133, 1) 100%);
+    background: linear-gradient(to bottom, rgba(41, 137, 216, 0) 50%, rgba(32, 124, 202, 0) 51%, rgba(25, 121, 202, 0.04) 53%, rgba(51, 51, 153, 0.65) 80%, rgb(43, 47, 133) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2989d8', endColorstr='#2b2f85', GradientType=0);
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: 0.8s ease;
+}
+
+.attorneys .attorneys-photo .attoneys-hover:hover .attorneys-lyer {
+    width: 100%;
+    height: 100%;
+    background-color: background: rgb(41, 137, 216);
+    background: -moz-linear-gradient(top, rgba(41, 137, 216, 1) 50%, rgba(32, 124, 202, 1) 51%, rgba(32, 124, 202, 1) 53%, rgba(51, 51, 153, 1) 80%, rgba(43, 47, 133, 1) 100%);
+    background: -webkit-linear-gradient(top, rgba(41, 137, 216, 1) 50%, rgba(32, 124, 202, 1) 51%, rgba(32, 124, 202, 1) 53%, rgba(51, 51, 153, 1) 80%, rgba(43, 47, 133, 1) 100%);
+    background: linear-gradient(to bottom, rgba(41, 137, 216, 0) 50%, rgba(32, 124, 202, 0) 51%, rgba(25, 121, 202, 0.04) 53%, rgba(51, 51, 153, 0.65) 80%, rgb(43, 47, 133) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2989d8', endColorstr='#2b2f85', GradientType=0);
+    position: absolute;
+    top: 0;
+    opacity: 1;
+}
+
+
+
+
+/* attorneys sec end*/
+/*lenguage sec start*/
+.lenguage {}
+
+.lenguage .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.lenguage .len-headline {
+    text-align: center;
+}
+
+.lenguage .len-headline span {
+    display: block;
+    width: 65px;
+    background-color: #f2622c;
+    height: 4px;
+    margin: 18px auto;
+}
+
+.lenguage .len-headline h1 {
+    font-size: 36px;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    color: #28377e;
+    padding-bottom: 65px;
+}
+
+.lenguage .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lenguage .len-content {
+    max-width: 22%;
+    flex-basis: 22%;
+    padding: 0 16px;
+}
+
+.lenguage .len-content h1 {
+    padding-bottom: 15px;
+    font-size: 24px;
+    font-family: Montserrat;
+    color: #28377e;
+    text-transform: uppercase;
+}
+
+.lenguage .len-content p {
+    font-size: 14px;
+    font-family: Open Sans;
+    color: #b1b0b1;
+    padding-bottom: 24px;
+}
+
+.lenguage .len-content a {
+    font-size: 14px;
+    font-family: Open Sans;
+    color: #f2622c;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+/*lenguage sec end*/
+/* form-sec start*/
+.form {
+    background-color: #28377e;
+    padding: 80px 0;
+}
+
+.form .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.form .form-headline {
+    text-align: center;
+}
+
+.form .form-headline span {
+    display: block;
+    width: 65px;
+    background-color: #f2622c;
+    height: 4px;
+    margin: 0 auto;
+}
+
+.form .form-headline h1 {
+    font-size: 36px;
+    font-family: Montserrat;
+    color: white;
+    padding-top: 18px;
+}
+
+.form .form-box {
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+.form .form-box .type {
+    padding: 12px 0;
+}
+
+.form .type input[type="text"] {}
+
+.form .form-box .type input[type="email"] {
+    background: none;
+    border: none;
+    font-size: 14px;
+    font-family: Montserrat;
+    color: #ffffff;
+    padding: 15px 0;
+}
+
+.form .form-box .type input[type="text"] {
+    background: none;
+    border: none;
+    font-size: 14px;
+    font-family: Montserrat;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.form .form-box button {
+    width: 212px;
+    height: 46px;
+    background-color: #f2622c;
+    border: 1px solid transparent;
+    margin: 35px 140px;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    font-family: Open Sans;
+}
+
+.form .form-box .type hr {
+    color: #4759a7;
+}
+
+
+
+/* form-sec end*/
+/*fotter sec start*/
+.fotter {
+    background-color: #0c1234;
+}
+
+.fotter .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.fotter .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fotter .fotter-headline {}
+
+.fotter .fotter-headline {
+    max-width: 50%;
+    flex-basis: 50%;
+    padding: 66px 0;
+}
+
+.fotter .fotter-headline p {
+    font-family: Open Sans;
+    font-size: 14px;
+    color: #616ca8;
+}
+
+.fotter .fotter-icon {
+    max-width: 50%;
+    flex-basis: 50%;
+}
+
+.fotter .fotter-icon ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.fotter .fotter-icon ul li {
+    list-style-type: none;
+    padding: 58px 10px;
+}
+
+.fotter .fotter-icon ul li a {
+    font-size: 25px;
+    color: white;
+}
+
+.fotter .fotter-icon ul li a i {}
+
+/* fotter sec end*/
